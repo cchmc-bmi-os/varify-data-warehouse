@@ -5,7 +5,7 @@ PACKAGE = 'vdw'
 VERSION = __import__(PACKAGE).get_version()
 
 install_requires = [
-    'django>=1.4.11,<1.5',
+    'django>=1.6,<1.7',
     'south==0.8.2',
     'python-memcached==1.48',
     'coverage',
@@ -16,7 +16,7 @@ install_requires = [
     'modeltree>=1.1.7',
     'django-objectset>=0.2.2',
     'django-sts==0.7.3',
-    'django-reversion==1.6.6',
+    'django-reversion==1.8.7',
     'django-guardian==1.0.4',
     'diff-match-patch',
     'pyvcf>=0.6.5',
