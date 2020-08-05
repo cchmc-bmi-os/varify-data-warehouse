@@ -11,7 +11,6 @@ install_requires = [
     'coverage',
     'rq>=0.3.8',
     'django-rq>=0.5.1',
-    'psycopg2==2.4.4',
     'avocado>=2.3.8,<3.0',
     'modeltree>=1.1.7',
     'django-objectset>=0.2.2',
